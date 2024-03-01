@@ -1,0 +1,11 @@
+build
+dist
+node_modules
+*.test.js
+vite.config.ts
+postcss.config.js
+tailwind.config.js
+i18n.ts
+public/firebase-messaging-sw.js
+src/lottie/*.json
+src/__generated__

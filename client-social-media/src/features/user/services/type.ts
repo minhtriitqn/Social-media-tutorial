@@ -1,0 +1,22 @@
+export type UserType = {
+  address?: string;
+  avatar?: string;
+  company?: string;
+  createdAt?: Date;
+  dayOfBirth?: string;
+  description?: string;
+  email?: string;
+  files?: string[];
+  friends?: UserType[];
+  friendsReq?: UserType[];
+  fullname?: string;
+  gender?: number;
+  id?: string;
+  password: string;
+  phone?: string;
+  relationship?: number;
+  role?: string;
+  university?: string;
+  updatedAt?: Date;
+  username?: string;
+};
